@@ -1,0 +1,987 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face{
+	font-family: "Myriad pro light";
+	src:url(fonts/Myriad\ Pro\ Light.otf);
+}
+@font-face{
+	font-family: "WorkSans-Regular";
+	src:url(fonts/WorkSans-Regular.otf);
+}
+@font-face {
+  font-family: "Myriad Pro";
+  src: url(fonts/myriadpro-light.otf);
+}
+@font-face {
+    font-family: "Myriad pro regular";
+    src: url(fonts/Myriad\ Pro\ Regular.ttf);
+}
+@font-face {
+    font-family: "Worksans regular";
+    src: url(fonts/WorkSans-Regular.otf);
+}
+@font-face {
+    font-family: "WorkSans SemiBold";
+    src: url(fonts/WorkSans-SemiBold.otf);
+}
+.container {
+	max-width: 1150px;
+	margin: 0px auto;
+}
+.container >div{
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    width:100%;
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+    cursor: pointer;
+}
+input{
+    outline: none;
+}
+/* ---------------------bài 1--------------------*/
+#shared_hosting >span{
+    display: inline-block;
+    width: 105px;
+    height: 26px;
+    padding:5px;
+    background-color: #8598CD;
+    color:#fff;
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: normal;
+    box-shadow: 0px 0px 1px 2px rgba(133, 152, 204, 1);
+}
+#shared_hosting >h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Myriad pro regular" ,sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+#shared_hosting >h1> span{
+    color:#02AEEF;
+    font-weight: bold;
+}
+#shared_hosting p{
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+#shared_hosting >div button{
+    margin-left: 15px;  
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #2D3032;
+    color: #CFD0D0;
+}
+
+/* ---------------------bài 2--------------------*/
+
+#bootslander{
+    position: relative;
+    background-image: url(images/umbrela.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ccc6dd;
+    z-index: -1;
+}
+#bootslander > span{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    background-color: #251707;
+    opacity: 0.7;
+}
+#bootslander >h2{
+    color:#e9f3fd;
+    margin-top: 45px;
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+#bootslander > p{
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: normal;
+    color: #e9f3fd;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#bootslander>button{
+    width: 245px;
+    height:30px;
+    border: none;
+    border-radius: 3px;
+    color:#F8E9E7;
+    background-color: #E3533D;
+    font-size: 14px;
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: normal;
+    box-shadow:1px 1px 5px #251707 ;
+}
+/* ---------------------bài 3--------------------*/
+
+#invite  {
+    height: 315px;
+    background-color: #F2F2F2;
+}
+#invite >i{
+    color: #59C6CF;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #59C6CF;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 45px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+#invite h1{
+    font-family: "WorkSans SemiBold", sans-serif;
+    font-weight: bold;
+    font-size:30px ;
+    margin-bottom: 20px;
+}
+#invite  p{
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    color: #464344;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+#invite >div{
+    display: inline-block;
+    align-items: center;
+}
+#invite >div >input{
+    display: block;
+    border: none;
+    border-radius: 2px;
+    width: 250px;
+    height: 35px;
+    font-size: 10px;
+    color: #BBBBBB;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+#invite >div >button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    background-color: #70CBCE;
+    font-family:"WorkSans SemiBold", sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color:#EFF9F9 ;
+    box-shadow: 0px 0px 1px 2px rgba(112, 203, 206, 1);
+}
+/* ---------------------bài 4--------------------*/
+#four-result {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 80%;
+    height: 180px;
+    margin: 50px auto;
+    padding-top:20px;
+    background-image: url(images/nature_mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+#four-result >span{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-color: #2d2822;
+    z-index: -1;
+}
+#four-result .result >a{
+    font-family: "WorkSans SemiBold", sans-serif;
+    color: #fff;
+    /* box-shadow: 0px 0px 1px 2px rgb(112 203 206); */
+}
+#four-result > #first_child{
+    margin-left: 80px;
+}
+#four-result > #last_child{
+    margin-right: 80px;
+}
+.result i{
+    font-size: 30px;
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+.result >a>h1{
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+}
+.result >a>p{
+    font-family: "WorkSans SemiBold", sans-serif;
+    font-weight: normal;
+    color: #ccc6dd;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+/* ---------------------bài 5--------------------*/
+#powerful-template {
+    margin: 30px auto;
+    text-align: center;
+}
+#powerful-template >div:first-child{
+    text-align: left;
+    margin-left: 235px;
+    margin-bottom: 15px;
+}
+#powerful-template >div>h1{
+    display: inline-block;
+    font-family: "WorkSans SemiBold", sans-serif;
+    font-weight: normal;
+    padding-right: 75px;
+    /* text-align: left; */
+}
+#powerful-template>div >p{
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    color: #ccc6dd;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 15px;
+    /* text-align: left;
+    margin-left: 205px; */
+}
+/* #powerful-template >span{
+    display: inline-block;
+    width: 100%;
+} */
+#dision{
+        display: flex;
+        justify-content: space-evenly;
+        width: 530px;
+        margin-left: 210px;
+}
+#dision .list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+    align-items: center;
+}
+#dision .list >li{
+    list-style-type: none;
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    color: #ccc6dd;
+    font-size: 12px;
+    margin-top: 15px;
+    width: 150px;
+    text-align: left;
+}
+#dision .list >li> i{
+    float: left;
+    margin-right: 10px;
+    color: #C3D831;
+    padding-left: 5px;
+}
+/* ---------------------bài 6--------------------*/
+#list-jobs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#list-jobs >.jobs{
+    width: 300px ;
+    height: 180px;
+    background-color: #F8F8F8;
+    padding-top: 20px;
+    margin-bottom: 55px;
+}
+#list-jobs >.jobs >i{
+    color: rgb(89, 198, 207);
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 2px solid rgb(89, 198, 207);
+    border-radius: 50%;
+    font-size: 18px;
+}
+#list-jobs >.jobs >h1{
+    font-size: 20px;
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#list-jobs >.jobs >p{
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    color: #6d6a75;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+/* ---------------------bài 7--------------------*/
+
+#customize_design >div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+#customize_design > #images_second{
+    margin-left:75px;
+}
+#customize_design >span{
+    width: 100%;
+    height: 1px;
+
+}
+#customize_design >div >section{
+    text-align: left;
+    padding-left: 50px;
+
+}
+#customize_design >div >section h1{
+    font-size: 25px;
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#customize_design >div >section p{
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    color: #6d6a75;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#customize_design >div >section button{
+    font-family:"WorkSans SemiBold", sans-serif;
+    font-size: 8px;
+    color: #fff;
+    background-color: #4899ea;
+    width:220px;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+}
+#customize_design >div >section:last-child button{
+    width:120px;
+    background-color: #78d35f;
+}
+#solid{
+    display: inline-block;
+    width: 750px;
+    height: 1px;
+    background-color: #958d8d;
+}
+/* ---------------------bài 8--------------------*/
+#comments >div>div{
+    position: relative;
+    width: 63%;
+    padding:10px 10px;
+    margin:10px auto;
+    background-color: rgb(248, 248, 248);
+}
+#comments >div>div >p{
+    text-align: left;
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: normal;
+    color: #050505;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#comments >div>div >i{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    top: 20px;
+    right: 30px;
+    padding-top: 3px;
+}
+#comments >div>div >p>span{
+    font-family:"WorkSans SemiBold", sans-serif;
+    padding: 15px 0px;
+}
+#comments >div>div >p>span >span{
+    color: #78d35f;
+}
+/* ---------------------bài 9--------------------*/
+
+#company_tech h1{
+    font-family: "WorkSans SemiBold", sans-serif;
+    font-weight: bold;
+    color: #ffca2d;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+#company_tech >div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+#company_tech >div .company{
+    width: 390px;
+    height: 150px;
+}
+#company_tech >div .company img{
+    /* margin-bottom: 20px; */
+}
+#company_tech >div .company p{
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: normal;
+    color: #050505;
+    font-size: 12px;
+    line-height: 20px;
+    font-style: oblique;
+    margin-bottom: 50px;
+}
+/* ---------------------bài 10--------------------*/
+
+#ten .ten_h{
+    display: inline-block;
+    text-align: left;
+    width: 600px;
+    height: 130px;
+    padding-top:20px;
+    padding-left: 20px;
+    position: relative;
+    background-color: #F8F8F8;
+    border-bottom-color: red;
+    border-bottom-width: 1px  ;
+}
+#ten >span{
+    display: block;
+    width: 560px;
+    border: 0.5px dashed #e56767;
+    margin: 0px auto;
+}
+#ten .ten_h >span{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    padding-top: 17px;
+    padding-left: 27px;
+    border-radius: 5px;
+    background-color: #d788df;
+    color: #fff;
+    font-size: 50px;
+    font-family: "Myriad pro light", sans-serif;
+}
+#ten .ten_h >div{
+    position:absolute;
+    top:25px;
+    left: 125px;
+}
+#ten .ten_h >div>h1{
+    font-size: 18px;
+    font-family: "WorkSans SemiBold", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#ten .ten_h >div >p{
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    color: #6d6a75;
+    font-size: 12px;
+    line-height: 20px;
+}
+/* ---------------------bài 11--------------------*/
+
+#contact_form{
+    text-align: left;
+}
+#contact_form >h1{
+    font-size: 18px;
+    font-family: "WorkSans SemiBold", sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#contact_form >#two_form>input{
+    font-family: "Myriad pro light", sans-serif;
+    font-size: 11px;
+    width: 280px;
+    height: 30px;
+    padding-left: 20px;
+    margin-right:45px;
+}
+
+#contact_form >#two_last_form{
+    display: flex;
+    flex-direction: column;
+}
+#contact_form >#two_last_form  >input{
+    font-family: "Myriad pro light", sans-serif;
+    font-size: 11px;
+    width: 610px;
+    height: 30px;
+    margin-top:20px;
+    padding-left:20px ;
+}
+#contact_form >#two_last_form  >input:nth-child(2){
+    height: 190px;
+}
+#contact_form >#two_last_form >button{
+    width: 120px;
+    height: 35px;
+    background-color: #4899ea;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "WorkSans SemiBold", sans-serif;
+    font-weight: normal;
+    color: #fff;
+}
+#contact_form >#two_last_form >p{
+    font-family: "Myriad pro light", sans-serif;
+    font-size: 15px;
+    width: 285px;
+    margin-top: -25px;
+    margin-left: 370px;
+}
+/* ---------------------bài 12--------------------*/
+#contact_us{
+    display: flex;
+}
+#contact_us #contact_info{
+    flex-grow: 1;
+}
+#contact_us #text_form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    flex-grow: 2;
+}
+#contact_us #contact_info >h1{
+    text-align: left;
+    font-size: 20px;
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#contact_us #contact_info >h2{
+    text-align: left;
+    font-size: 17px;
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#contact_us #contact_info >span{
+    display: block;
+    width: 45px;
+    height: 1px;
+    margin-bottom: 30px;
+    background-color: #ff9e57;
+}
+#contact_us #contact_info >div > .info{
+    display: flex;
+    font-family: "Myriad pro light", sans-serif;
+    font-size: 15px;
+    color: #ccc6dd;
+    margin-bottom: 15px;
+    align-items: center;
+    
+}
+#contact_us #contact_info > div > .info >i{
+    margin-right: 15px;
+}
+#contact_us #text_form {
+    display: flex;
+    flex-direction: column;
+    margin-top:70px;
+}
+#contact_us #text_form >h1{
+    text-align: left;
+    font-size: 17px;
+    font-family: "Myriad pro light", sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#contact_us #text_form input{
+    font-family: "Myriad pro light", sans-serif;
+    font-size: 11px;
+    height: 30px;
+    padding-left: 15px;
+    margin-top: 10px;
+    width: 650px;
+}
+#contact_us #text_form >button{
+    width: 100px;
+    height: 30px;
+    color:#fff;
+    font-family: "Myriad pro light", sans-serif;
+    font-size: 12px;
+    background-color: #13be8c;
+    border: none;
+    margin-top:15px;
+}
+/* ---------------------bài 13--------------------*/
+#clients_say{
+    /* height: 450px; */
+    background-color: #F8F8F8;
+    margin-bottom: 100px;
+}
+#clients_say >div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+#clients_say >div .John_doe {
+    width:300px;
+}
+#clients_say>h1{
+    font-family: "WorkSans SemiBold", sans-serif;
+    font-weight: bold;
+    /* color: #ffca2d; */
+    font-size: 30px;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+#clients_say >span{
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    margin-bottom: 50px;
+    background-color: #267eef;
+    text-align: center;
+}
+#clients_say >div .John_doe{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+#clients_say >div .John_doe >span:nth-child(1) {
+    display: block;
+    padding-top: 13px;
+    font-family: "Myriad pro light", sans-serif;
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+    background-color: #7be995;
+    font-size: 30px;
+    color: #fff;
+
+}
+#clients_say >div .John_doe >span:last-child{
+    margin-left: 80px;
+    font-family: "WorkSans SemiBold", sans-serif;
+    font-size: 14px;
+}
+#clients_say >div .John_doe >p{
+    font-family: "Myriad pro light", sans-serif;
+    font-weight: bold;
+    color: #6d6a75;
+    font-size: 11px;
+    line-height: 15px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    font-style: oblique;
+    width: 200px;
+    text-align: left;
+
+}
+/* Responsive */
+@media screen  and  (max-width: 1024px){
+    #contact_form{
+        text-align: center;
+    }
+    #contact_form >#two_form>input{
+        width: 303px;
+        margin-right: 0;
+    }
+    #contact_form >#two_last_form{
+        align-items: center;
+    }
+    #contact_us #contact_info{
+        padding-left: 40px;
+    }
+    #contact_us #text_form{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    #contact_form >#two_last_form >p {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    #powerful-template {
+        display: flex;
+        flex-direction: column;
+    }
+    #powerful-template >div >h1 {
+        padding-right: 0;
+    }
+    #powerful-template >div:first-child{
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+@media screen  and  (max-width: 768px){
+    #four-result {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #four-result > .result{
+        width: 200px;
+    }
+    #four-result > #first_child{
+        margin-left: 0px;
+    }
+    #four-result > #last_child{
+        margin-right: 0px;
+    }
+    #contact_form #two_form >input{
+        width: 600px;
+    }
+    #contact_form #two_form #first_one{
+        margin-bottom:20px;
+    }
+    #customize_design >div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #customize_design > div :last-child{
+        margin-left: 0px;
+    }
+    #customize_design >div >section {
+        text-align: center;
+        padding-left: 0px;
+    }
+    #customize_design > div > #images_second{
+        margin-bottom: 20px;
+    }
+    #powerful-template > #dision {
+        margin-left: 0px;
+        width: auto;
+    }
+    #contact_form > #two_form >input{
+        width: 450px;
+    }
+    #contact_form > #two_last_form >input{
+        width: 450px;
+    }
+    #contact_us {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact_us #contact_info >div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #contact_us #text_form >h1 {
+        text-align: center;
+    }
+    #contact_us #text_form input{
+        /* padding-right: 40px; */
+        width: auto;
+    }
+    #contact_us #contact_info >h2{
+        text-align: center;
+    }
+
+}
+@media screen  and  (max-width: 600px){
+    #bootslander >button {
+        width: 155px;
+        height: 45px;
+    }
+    #powerful-template >div>h1 {
+        font-size: 25px;
+    }
+    #powerful-template >div>p{
+        font-size: 12px;
+    }
+    #dision .list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 290px;
+        align-items: center;
+    }
+    #dision .list >li{
+        font-size: 12px;
+        width: 135px;
+    }
+    #powerful-template > #dision {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    #company_tech >h1{
+      font-size: 30px;
+    }
+    #company_tech >div> company >img{
+        transform: scale(0.8);
+    }
+    #ten .ten_h{
+        width: 430px;
+    }
+    #ten >span {
+        width: 390px;
+    }
+    #ten .ten_h >div>h1 {
+        font-size: 14px;
+        font-family: "WorkSans SemiBold", sans-serif;
+        font-weight: bold;
+    }
+    #company_tech >div >.company >img{
+        transform: scale(0.7);
+    }
+    #company_tech >div .company p {
+        font-size:11px ;
+    }
+    #ten .ten_h {
+        display: inline-block;
+        height: 120px;
+        padding-top: 35px;
+    }
+    #ten .ten_h >span{
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        padding-top: 14px;
+        padding-left: 22px;
+        font-size: 40px;
+    }
+    #ten .ten_h >div {
+        top: 20px;
+        left: 100px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }  
+    #contact_us #contact_info >div{
+        flex-direction: column;
+        align-items: center;
+    }  
+    #contact_us #contact_info >div >.info{
+        margin-bottom: 30px;
+    }
+    #clients_say>h1{
+        font-size: 20px;
+    }
+}
+@media screen  and  (max-width: 480px){
+    #ten .ten_h {
+        height: 160px;
+        width: 340px;
+    }
+    #ten >span {
+        width: 300px;
+    }
+    #company_tech >h1{
+        font-size: 25px;
+    }
+    #contact_form >h1 {
+        font-size: 15px;
+    }
+    #contact_form > #two_form >input{
+        width: 350px;
+    }
+    #contact_form > #two_last_form >input{
+        width: 350px;
+    }
+    #clients_say >div .John_doe >span:nth-child(1){
+        padding-top: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: #7be995;
+        font-size: 25px;
+    }
+}
+@media screen  and  (max-width: 320px){
+    #ten .ten_h {
+        height: 250px;
+        width: 250px;
+    }
+    #contact_form > #two_form >input{
+        width: 250px;
+    }
+    #contact_form > #two_last_form >input{
+        width: 250px;
+    }
+    #clients_say >div .John_doe {
+        width: 260px;
+    }
+    #company_tech >div >.company >img{
+        transform: scale(0.7);
+    }
+}
+@media screen  and  (max-width: 275px){
+    
+    #customize_design >div >section h1 {
+        font-size: 20px;
+    }
+    #customize_design >div >section p{
+        font-size: 10px;
+    }
+    #contact_form >#two_last_form >p {
+        font-size: 12px;
+    }
+    #contact_form > #two_form >input{
+        width: 150px;
+    }
+    #contact_form > #two_last_form >input{
+        width: 150px;
+    }
+    #clients_say >div .John_doe >span:nth-child(1) {
+        width: 160px;
+        height: 40px;
+        padding-top: 6px;
+    }
+    #clients_say >div .John_doe {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    #clients_say >div .John_doe >p{
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    #clients_say >div .John_doe >span:last-child{
+        margin-left: 0;
+    }
+}
